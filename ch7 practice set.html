@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css grid and media query</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }
+        ul{
+            display: inline grid;
+            grid-template-columns: auto auto;
+        }
+        ul li{
+            list-style: disc;
+            margin: 0 30px;
+            padding: 15px 0;
+        }
+        header{
+            background-color: black;
+            color: yellow;
+        }
+        .container{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+        </nav>
+    </header>
+    <div class="container">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis aut quisquam culpa velit dolore non nisi sed, maxime, ipsum atque veritatis aliquid doloribus eos debitis. Officia sapiente tenetur commodi nihil. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo reiciendis veniam deleniti recusandae molestiae quis aut eaque eum illo asperiores corrupti illum dolore alias ratione nulla, expedita laudantium deserunt quae!</div>
+</body>
+</html>
